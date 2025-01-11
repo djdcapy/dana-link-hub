@@ -1,0 +1,72 @@
+/* style.css */
+
+html {
+    height: 100%;
+    margin: 0;
+    overflow: auto;
+}
+
+body {
+    font-family: sans-serif;;
+    background-image: url(https://images.unsplash.com/photo-1670598738615-8d8abc37f885?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8YmFja2dyb3VuZCUyMGdyZWVufGVufDB8fDB8fHww) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 50px auto;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.title {
+    text-align: center;
+    color: #d8e0d9;
+}
+
+.bio {
+    text-align: center;
+    color: #d8e0d9;
+}
+
+.btn {
+    background-color: #94d1a5;
+    padding: 16px 20px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    color: azure;
+    text-decoration: none;
+    text-align: center;
+}
+
+.btn:hover {
+    background: transparent;
+    border-radius: 1px solid #d8e0d9;
+    color: #d8e0d9;
+}
+
+.hobbies {
+    color: #d8e0d9;
+    text-align: center;
+}
+
+.hobbies-list {
+    color:#d8e0d9;
+    text-align: center;
+}
+
+.shows {
+    color: #d8e0d9;
+    text-align: center;
+}
+
+.shows-list {
+    color: #d8e0d9;
+    text-align: center;
+}
